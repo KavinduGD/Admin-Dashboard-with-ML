@@ -1,12 +1,9 @@
 import DashBoardBox from "@/components/DashBoardBox";
 import React from "react";
 
-type Props = {};
-
-const Row3 = (props: Props) => {
+const Row3 = () => {
   return (
     <>
-      {" "}
       <DashBoardBox gridArea="g"></DashBoardBox>
       <DashBoardBox gridArea="h"></DashBoardBox>
       <DashBoardBox gridArea="i"></DashBoardBox>

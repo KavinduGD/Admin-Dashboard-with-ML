@@ -1,8 +1,6 @@
 import DashBoardBox from "@/components/DashBoardBox";
 
-type Props = {};
-
-const Row1 = (props: Props) => {
+const Row1 = () => {
   return (
     <>
       <DashBoardBox gridArea="a"></DashBoardBox>

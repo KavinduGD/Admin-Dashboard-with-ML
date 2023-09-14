@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { styled } from "@mui/material";
+import { styled } from "@mui/system";
 
 const DashBoardBox = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.background.light,
